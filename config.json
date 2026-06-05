@@ -1,0 +1,67 @@
+{
+  "user_profile": {
+    "name": "Your Name",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Data Science",
+      "SQL",
+      "AWS"
+    ],
+    "experience_years": 3,
+    "locations": [
+      "Bangalore",
+      "Hyderabad",
+      "Pune",
+      "Remote"
+    ],
+    "salary_min": 500000,
+    "salary_max": 2000000,
+    "job_titles": [
+      "Data Scientist",
+      "Machine Learning Engineer",
+      "AI Developer",
+      "Software Engineer"
+    ],
+    "employment_types": [
+      "Full-time",
+      "Contract"
+    ]
+  },
+  "platforms": {
+    "naukri": {
+      "enabled": true,
+      "auto_apply": true
+    },
+    "linkedin": {
+      "enabled": true,
+      "auto_apply": false
+    },
+    "indeed": {
+      "enabled": true,
+      "auto_apply": true
+    }
+  },
+  "matching": {
+    "min_skill_match_percentage": 70,
+    "use_ai_matching": true,
+    "exact_location_match": false,
+    "experience_tolerance_years": 1
+  },
+  "notification": {
+    "email_enabled": true,
+    "send_daily_summary": true,
+    "send_on_each_application": true,
+    "slack_enabled": false
+  },
+  "scheduler": {
+    "enabled": true,
+    "interval_hours": 6,
+    "start_time": "09:00",
+    "end_time": "22:00"
+  },
+  "rate_limiting": {
+    "requests_per_minute": 5,
+    "delay_between_applications_seconds": 10
+  }
+}
